@@ -34,7 +34,7 @@ public class User {
 
     public boolean follows(String name) {
         for (int i = 0; i < fCount; i++) {
-            if (follows[i].equalsIgnoreCase(name)) {
+            if (follows[i].equals(name)) {
                 return true;
             }
         }
